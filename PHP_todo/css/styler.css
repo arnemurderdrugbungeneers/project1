@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+	font-size: 28px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+a{
+	text-decoration: none;
+}
+#navigation{
+
+	margin: 0 auto;
+	width:1000px;
+}
+#navigation ul li{
+	display: inline;
+	margin-right: 25px;
+}
+
+#navigation ul li a{
+
+	color:black;
+	font-size: 1.2em;
+	border-bottom: 1px solid gold;
+}
+
+#content{
+
+	background: url("../img/papyrus.png");
+	width: 1000px;
+	height: 600px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-top: 40px;
+}
+
+#content ul#special li{
+
+	padding-top: 25px;
+	list-style: none;
+
+}
+
+#content ul#special li a{
+
+color:white;
+font-size: 1.1em;
+
+}
+
+#content ul#special li a:hover{
+
+border-bottom: 1px solid white;
+
+}
